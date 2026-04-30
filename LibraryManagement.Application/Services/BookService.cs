@@ -1,6 +1,6 @@
 ﻿using LibraryManagement.Application.Common;
 using LibraryManagement.Application.DTO;
-using LibraryManagement.Application.Interfaces;
+using LibraryManagement.Application.Interfaces.Services;
 using LibraryManagement.Domain.Entities;
 using LibraryManagement.Domain.Interfaces;
 

@@ -1,11 +1,11 @@
-﻿using LibraryManagement.Application.Interfaces;
-using LibraryManagement.Domain.Interfaces;
+﻿using LibraryManagement.Domain.Interfaces;
 using LibraryManagement.Infrastructure.Persistence;
 using LibraryManagement.Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using LibraryManagement.Application.Services;
+using LibraryManagement.Application.Interfaces.Services;
 
 namespace LibraryManagement.Infrastructure
 {

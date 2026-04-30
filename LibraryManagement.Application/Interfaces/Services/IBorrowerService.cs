@@ -1,7 +1,7 @@
 ﻿using LibraryManagement.Application.Common;
 using LibraryManagement.Application.DTO;
 
-namespace LibraryManagement.Application.Interfaces
+namespace LibraryManagement.Application.Interfaces.Services
 {
     public interface IBorrowerService
     {

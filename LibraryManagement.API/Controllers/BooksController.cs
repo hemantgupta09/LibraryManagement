@@ -1,7 +1,7 @@
 ﻿using LibraryManagement.API.Filters;
 using LibraryManagement.API.Models;
 using LibraryManagement.Application.DTO;
-using LibraryManagement.Application.Interfaces;
+using LibraryManagement.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;

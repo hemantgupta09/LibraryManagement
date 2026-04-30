@@ -1,6 +1,6 @@
 ﻿using LibraryManagement.API.Filters;
 using LibraryManagement.Application.DTO;
-using LibraryManagement.Application.Interfaces;
+using LibraryManagement.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
