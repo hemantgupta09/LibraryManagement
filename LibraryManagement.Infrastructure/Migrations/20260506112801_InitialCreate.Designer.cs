@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20260429183631_InitialCreate")]
+    [Migration("20260506112801_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -76,7 +76,6 @@ namespace LibraryManagement.Infrastructure.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<bool>("IsAvailable")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(true);
 
